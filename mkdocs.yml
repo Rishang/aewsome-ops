@@ -1,7 +1,11 @@
 site_name: AWS OIDC BROKER
 repo_url: https://github.com/Rishang/aws-oidc-broker
 nav:
-  - Home: index.md
+  - 'Home': index.md
+  - 'AWS': ''
+  - 'Kubernetes':
+    - 'Cluster Creation': './kubernetes/create.md'
+  - 'Microservices': './microservices/index.md'
 
 theme:
   name: material
